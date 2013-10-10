@@ -1,0 +1,85 @@
+steps:
+
+futurehome -
+  recreate what i have up now but from scratch (so it shows up on mobile)
+    background image in jumbotron
+      start by moving jpeg directly into meal folder to make it easy, then figure out how to link
+    add a second pane with white background below jumbotron
+    add a grey one too
+    make the grey one go across the whole screen (why doesn't it?)
+    add an order now button
+    add the logo picture
+    get image to move right
+    fill the second pane
+    fill the third pane - add the image
+    center each vertically
+    move the button in the purble strip
+    move the stuff in the jumbotron right
+      how did it happen for the other stuff on the page?
+
+  attempt to make this mobile:
+    copy the html
+    put entire body in a container
+      *this puts everything in rounded corners and adds a nice margin to eveything, but didn't fix the resizing issue...
+      put things into col-md-6 type format
+      *looks better mobile, but the width is still fixed at 50%. need to remove this.
+        *removing the 50% made it even more narrow... what's capping the width? the col-3 was....
+      got the text to show right, but now the first big white strip isn't showing up at all...forgot a /div
+      *the white strip now looks good, but is it responsive?
+      how do i get the blue strip to stay beneath the logo image no matter what?
+      try to put the blue strip into the same format...
+      the problem is that the image runs into the next div... why is this happening? trunk club images disappear if they can't fit...i want to do this.
+        try a media query
+          *this successfully removed the image when width goes under x number of pixels, but also removed ALL styling when the width is > x number of pixels... why is it doing this? how does media work?
+        try using img-repsonsive classs...
+        *this didn't seem to do anything..
+        go back to media query... if i can just remove the images on mobile, that improves the experience.
+        what i want to say is, when it falls below x pixels, don't display the image
+        *got it to work!
+        now apply this to all images
+
+    now make the rest of it look good in this new 'mobile-first' version
+      make the second pane look as good as the first pane
+      why is the h2 in the 2nd pane so much farther down?
+      goal: get eveyrthing to go to top of bluestrip.
+        problem: the col-md-6 that contains the clock has a width:50 which is pushing everything down. When I remove the width:50, everything looks ok. The question is, why would a width:50 make evyrhing shift down?? Is it being squeezed so it can't fit at the top? what happens if i override the width?
+        what is the reason this isn't screwing things up on the logo pane?
+          why is the logo pane col-12 one pixel longer??
+          IT'S THE DAMN MARGIN-BOTTOM ON THE LOGO IMAGE, PUSHING EVERYTHING DOWN...
+            why did i even put this there??
+            *took it out and it's fixed!
+
+      final touches:
+        center align vertially within the rows.
+          what are the two boxes around step 3?
+            first off, there is orange()
+
+      still to do:
+      vertical centering
+
+      add @media to improve experience if shreen is shrunk vertically
+      make it so the text on the purple strip disappears if it's mobile view, but the button stays.
+
+      why does step 1 have more space at the top than step 3
+        why is there white space between 'bigwhitestrip' andthe jumbotron??
+          because jumbotron has a margin underneath it. change this.
+        make a little space on the bottom.
+        why is there more bottom space on the second white strip? fixed.
+        make text in purple strip sit in the middle
+
+
+  now make it live
+    replace the old styles with mobstyles, replace home with mobilehome
+    push to git
+    push to github
+    push to heroku
+
+
+
+
+
+
+
+
+
+

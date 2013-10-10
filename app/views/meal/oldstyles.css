@@ -1,0 +1,174 @@
+/**{
+  overflow:hidden;
+}*/
+
+.lilwhitestrip {
+  height: 10%;
+}
+
+.lilwhitestrip h1{
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Lora', serif;
+  font-size:30px;
+  font-weight:600;
+  padding-left:30px;
+  letter-spacing: 5px;
+}
+
+.jumbotron {
+  padding-top:70px;
+  padding-left:10%;
+  color:black;
+  background-image:url('jerkchickenbw.jpg');
+  background-size:1300px;
+  background-repeat:no-repeat;
+  height: 300px;
+  font-family: 'Bitter', serif;
+
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  color:black;
+  line-height: 30px;
+}
+
+.center {
+  height: 50;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.bigwhitestrip {
+  height: 50%;
+}
+
+.bigwhitestrip img{
+  height: 80%;
+  margin-bottom: 200px;
+}o
+
+.bigwhitestrip h2{
+  padding-top: 5%;
+  padding-left:10%;
+  float:left;
+  width:50%;
+}
+
+.bluestrip {
+  height: 50%;
+  background-color: #191970;
+  width: 100%;
+}
+
+img{
+  padding-top: 7%;
+  padding-left:10%;
+  height: 70%;
+}
+
+#clock{
+  padding-top: 7%;
+  padding-left:10%;
+  height: 85%;
+}
+
+#friends{
+  padding-top: 0%;
+  padding-left:10%;
+  height: 100%;
+}
+
+.bluestrip h2{
+  padding-top: 7%;
+  padding-right:10%;
+  float:right;
+  width: 50%;
+  color:white;
+}
+
+h2 small {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size:25px;
+  color: black;
+  line-height: 30px;
+}
+
+.bluestrip h2 small{
+  color:white;
+}
+
+.purplestrip {
+  height: 150px;
+  background-color:#CC99FF;
+}
+
+.purplestrip h2{
+  padding-top:4%;
+  padding-left:10%;
+}
+
+
+/*.lefttext{
+  width: 50%;
+}*/
+
+h1 {
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  color:black;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+/*  font-family: 'Raleway', sans-serif;*/
+  font-weight: 400;
+  font-size:35px;
+  color: black;
+}
+
+
+
+.fix-float {
+  clear: both;
+}
+
+.rightside{
+margin-left:60px;
+}
+/*.moveright {
+  padding-left:10%;
+}*/
+
+
+STYLING SPECIFIC TO MOBILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*includ b*/
