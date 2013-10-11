@@ -1,12 +1,13 @@
 
-
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Lora:400,700|Raleway:400,500' rel='stylesheet' type='text/css'>
+    <%= stylesheet_link_tag "styles" %>
+
 </head>
 
 <body>
@@ -19,40 +20,40 @@
   </div>
 
     <div class="jumbotron">
-      <h1>Lunch, delivered.</h1>
+      <h1 class="responsive">Lunch, delivered.</h1>
       <h3>Better lunch options delivered to Kellogg.</h3>
-      <p><a class="btn btn-primary btn-lg">Order now!</a></p>
+      <a class="btn btn-primary btn-lg">Order now!</a>
     </div>
 
     <div class="bigwhitestrip col-md-12">
       <div class="col-md-6">
-        <h2 class="centered">Step 1: Order on your computer or phone.</br></br><small>Order by 11am at one of our partner restaurants, pay online via paypal or credit card.</small></h2>
+        <h2 class="centered">Step 1: Order on your computer or phone.</br></br><small class="responsive">Order by 11am at one of our partner restaurants, pay online via paypal or credit card.</small></h2>
       </div>
       <div class="col-md-6">
-        <img src="logos.png" class="responsive">
+        <img src="/assets/logos.png" class="responsive">
       </div>
     </div>
 
     <div class="bluestrip col-md-12">
       <div class="col-md-6">
-        <img src="noonish.svg" id="clock" class="responsive">
+        <img src="/assets/noonish.svg" id="clock" class="responsive">
       </div>
       <div class="col-md-6">
-      <h2>Step 2: Pick up your food from Jacobs at noon.</br></br><small> We'll bring your food to the Atrium by G03. No need to tip.</small></h2>
+      <h2>Step 2: Pick up your food from Jacobs at noon.</br></br><small class="responsive"> We'll bring your food to the Atrium by G03. No need to tip.</small></h2>
       </div>
     </div>
 
     <div class="bigwhitestrip col-md-12">
       <div class="col-md-6">
-        <h2>Step 3: Tell your friends, get hooked up. </br></br><small>Refer a friend and you'll each get free delivery on your next meal. Everybody wins.</small></h2>
+        <h2>Step 3: Tell your friends, get hooked up. </br></br><small class="responsive">Refer a friend and you'll each get free delivery on your next meal. Everybody wins.</small></h2>
       </div>
       <div class="col-md-6">
-        <img src="friends.svg" id="friends" class="responsive">
+        <img src="/assets/friends.svg" id="friends" class="responsive">
       </div>
     </div>
 
      <div class="purplestrip">
-      <h2 class=>It's that easy. What are you waiting for?<a class="btn btn-primary btn-lg rightside">Order now!</a></h2>
+      <h2 class="responsive">It's that easy. What are you waiting for?</h2><a class="btn btn-primary btn-lg bottombut">Order now!</a>
 
     </div>
 
@@ -63,3 +64,4 @@
 
 
 </body>
+</html>

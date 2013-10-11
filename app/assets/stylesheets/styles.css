@@ -1,0 +1,178 @@
+/**{
+  overflow:auto;
+}*/
+
+/**{
+  border:thin red solid;
+}*/
+
+.lilwhitestrip {
+  height: 10%;
+}
+
+.lilwhitestrip h1 {
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Lora', serif;
+  font-size:30px;
+  font-weight:600;
+  padding-left:30px;
+  letter-spacing: 5px;
+}
+
+.jumbotron {
+  padding-top:70px;
+  padding-left:10%;
+  color:black;
+  background-image:url(/assets/jerkchickenbw.JPG);
+  background-size:1300px;
+  background-repeat:no-repeat;
+  height: 300px;
+  font-family: 'Bitter', serif;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  color:black;
+  line-height: 30px;
+}
+
+.bigwhitestrip {
+  height: 300px;
+}
+
+.bigwhitestrip h2{
+  padding-top: 5%;
+  padding-left:15%;
+  vertical-align: middle;
+  float:left;
+}
+
+.bluestrip {
+  height: 300px;
+  background-color: #191970;
+}
+
+
+.bluestrip h2{
+  padding-top: 5%;
+  padding-left:10%;
+  float:right;
+}
+
+
+@media (max-width: 1000px) {
+  .responsive {
+    display: none;
+    }
+  }
+
+
+
+#clock {
+ /* padding-top: 12%;*/
+  padding-left:25%;
+  height: 250px;
+  margin-top:35px;
+}
+
+#friends{
+  padding-top: 0%;
+  padding-left:10%;
+  height: 300px;
+}
+
+.bluestrip h2{
+  padding-top: 7%;
+  padding-right:10%;
+  float:right;
+/*  width: 50%;*/
+  color:white;
+}
+
+h2 small {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size:25px;
+  color: black;
+  line-height: 30px;
+}
+
+.bluestrip h2 small{
+  color:white;
+}
+
+.purplestrip {
+  height: 150px;
+  background-color:#CC99FF;
+}
+
+.purplestrip h2{
+  padding-top:3%;
+  /*padding-left:10%;*/
+  margin:0;
+  margin-left: 23%;
+}
+
+
+/*.lefttext{
+  width: 50%;
+}*/
+
+h1 {
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  color:black;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+/*  font-family: 'Raleway', sans-serif;*/
+  font-weight: 400;
+  font-size:35px;
+  color: black;
+}
+
+.bottombut {
+  margin-top: 10px;
+  margin-left: 45%;
+  font-family: 'Bitter', serif;
+}
+
+.fix-float {
+  clear: both;
+}
+
+.rightside{
+margin-left:60px;
+}
+
+
+
+
+
+STYLING SPECIFIC TO MOBILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*includ b*/
