@@ -44,8 +44,12 @@ h3 {
   height: 300px;
 }
 
+.withinbws {
+  height: 200px;
+}
+
 .bigwhitestrip h2{
-  padding-top: 5%;
+  padding-top: 3%;
   padding-left:15%;
   vertical-align: middle;
   float:left;
@@ -57,11 +61,7 @@ h3 {
 }
 
 
-.bluestrip h2{
-  padding-top: 5%;
-  padding-left:10%;
-  float:right;
-}
+
 
 
 @media (max-width: 1000px) {
@@ -86,12 +86,13 @@ h3 {
 }
 
 .bluestrip h2{
-  padding-top: 7%;
+  padding-top: 3%;
   padding-right:10%;
+  padding-left:10%;
   float:right;
-/*  width: 50%;*/
   color:white;
 }
+
 
 h2 small {
   font-family: 'Lora', serif;
@@ -114,7 +115,7 @@ h2 small {
   padding-top:3%;
   /*padding-left:10%;*/
   margin:0;
-  margin-left: 23%;
+  margin-left: 25%;
 }
 
 
@@ -134,6 +135,11 @@ h2 {
   font-weight: 400;
   font-size:35px;
   color: black;
+  width: 500px;
+}
+
+.bottomtext {
+  width: 1000px;
 }
 
 .bottombut {
